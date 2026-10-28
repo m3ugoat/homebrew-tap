@@ -2,8 +2,7 @@ cask "mediagg" do
   version "0.4.2"
   sha256 "6e7cebbd66a25dc60cec6b71798eade306dab269bfb529de62f9aadd8d61e419"
 
-  url "https://github.com/m3ugoat/mediagg-releases/releases/download/mediagg-for-mac/Mediagg-#{version}.dmg",
-      verified: "github.com/m3ugoat/mediagg-releases/"
+  url "https://github.com/m3ugoat/mediagg-releases/releases/download/mediagg-for-mac/Mediagg-#{version}.dmg"
   name "Mediagg"
   desc "Music, podcasts, films and audiobooks from your device, media servers and feeds"
   homepage "https://mediagg.app/"

@@ -3,8 +3,13 @@
 Mediagg for Mac, installed with [Homebrew](https://brew.sh):
 
 ```sh
+brew tap m3ugoat/tap
+brew trust m3ugoat/tap
 brew install --cask m3ugoat/tap/mediagg
 ```
+
+Homebrew installs from a tap of its own only once you trust it (`brew trust`); this one holds the
+Mediagg cask and nothing else.
 
 Mediagg plays music, podcasts, films, shows and audiobooks from your Mac, your media servers and
 podcast feeds. It is the same signed and notarised app as the download on
